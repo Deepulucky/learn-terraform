@@ -40,6 +40,6 @@ variable "listex"{
     ]
 }
 
-output "sample4"{
+output "sample5"{
     value = "value from list ${var.listex[2]}"
 }
