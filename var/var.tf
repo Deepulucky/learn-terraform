@@ -15,12 +15,12 @@ variable "mapex"{
         devops ={
             name = "devops"
             course = "devops"
-            duration = 100hrs
+            duration = "100hrs"
         }
         AWS ={
             name = "devops"
             course = "AWS"
-            duration = 100hrs
+            duration = "100hrs"
         }
     }
 }
@@ -34,9 +34,9 @@ output "sample4"{
 
 variable "listex"{
     default = [
-        DevOps,
-        AWS,
-        Azure
+        "DevOps",
+        "AWS",
+        "Azure"
     ]
 }
 
