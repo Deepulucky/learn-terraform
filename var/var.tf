@@ -26,7 +26,7 @@ variable "mapex"{
 }
 
 output "sample3"{
-    value = "value from map ${var.mapex["devops"]}"
+    value = var.mapex["devops"]
 }
 output "sample4"{
     value = "course value from map ${var.mapex["AWS"].course}"
