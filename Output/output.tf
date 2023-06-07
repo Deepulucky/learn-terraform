@@ -1,3 +1,3 @@
 output "sample" {
-    default = "I am from output block"
+    value = "I am from output block"
 }
